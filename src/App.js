@@ -1,14 +1,15 @@
 import {Component} from "react";
 
-import './App.css';
+import Promo from "./components/promo/promo";
+import './App.scss';
 
 class App extends Component{
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
     }
     render() {
         return(
-            <h1>hello  </h1>
+            <Promo/>
         )
     }
 }

@@ -1,0 +1,47 @@
+.promo {
+    height: 655px;
+    padding: 24px 0 54px 0;
+    background: url("../../img/bg/firstBg.svg")center center/cover no-repeat ;
+    .header{
+        padding: 15px 20px 14px;
+        border-radius: 30px;
+        backdrop-filter: blur(20px);
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 64px;
+        width: 1090px;
+        display: flex;
+        align-items: center;
+        &__menu {
+            display: flex;
+            align-items: center;
+            height: 100%;
+            margin-left: 251px;
+            color: #fff;
+            gap: 31px;
+            li{
+                font-size: 14px;
+                font-weight: normal;
+                list-style-type: none;
+            }
+        }
+        &__btn {
+            position: absolute;
+            top: 2px;
+            right: 2px;
+            width: 116px;
+            background-color: transparent;
+            border:none;
+            border-radius: 60px;
+            height: 30px;
+            text-decoration: none;
+            color: #fff;
+            cursor: pointer;
+            &_wrapper {
+                position: relative;
+                width: 120px;
+                height: 35px;
+            }
+        }
+
+        }
+    }
