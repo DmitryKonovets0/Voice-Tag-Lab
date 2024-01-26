@@ -26,11 +26,24 @@ export default class Promo extends Component {
                                     <a href="#">
                                         <button className='header__btn'>Get your tag</button>
                                     </a>
-
                                 </div>
                             </li>
                         </ul>
                     </div>
+                    <div className="promo__title">
+                        Voice <br/> Tag Lab
+                    </div>
+                    <div className="promo__subtitle">
+                        The best custom voice tags online
+                    </div>
+                    <div className="promo__descr">
+                        Voice Tag is a necessity for every music producer. We offer a wide range of voices and professional service. Brand your sound with us! Become known
+                    </div>
+                    <a href="#">
+                        <button className="promo__btn">
+                            Get your custom tag
+                        </button>
+                    </a>
                 </div>
             </div>
         )
