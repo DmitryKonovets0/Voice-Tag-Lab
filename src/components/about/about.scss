@@ -1,0 +1,39 @@
+.about{
+  background-color: #10141e;
+  height: 594px;
+  &__title{
+    font-size: 32px;
+    font-weight: 600;
+    color: #fff;
+  }
+  &__wrapper{
+    width: 1130px;
+    height: 594px;
+    flex-grow: 0;
+    padding: 32px 40px;
+    border-radius: 40px;
+    background-image: linear-gradient(15deg, rgba(9, 88, 250, 0.07) 1%, rgba(9, 250, 50, 0.07) 110%);
+    background-blend-mode: hue;
+    &_items{
+      margin-top: 24px;
+      display: grid;
+      grid-template-columns: 330px 330px 330px;
+      grid-gap: 32px;
+    }
+  }
+  &__heading{
+    margin-top: 10px;
+    font-size: 18px;
+    color: #fff;
+    text-align: left;
+  }
+  &__descr{
+    margin-top: 4px;
+    font-size: 14px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.8);
+    span{
+      color: #1286fc;
+    }
+  }
+}
