@@ -5,6 +5,7 @@ import How from "./components/how/how";
 import About from "./components/about/about";
 
 import './App.scss';
+import Samples from "./components/samples/samples";
 
 class App extends Component{
     render() {
@@ -13,6 +14,7 @@ class App extends Component{
                 <Promo/>
                 <How/>
                 <About/>
+                <Samples/>
             </>
 
         )
