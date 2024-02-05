@@ -1,0 +1,134 @@
+.reviews {
+  background-color: #10141e;
+  height: 640px;
+  padding: 100px 0 124px 0;
+  &__title{
+    font-size: 32px;
+    font-weight: 600;
+    color: #fff;
+  }
+  &__wrapper{
+    display: grid;
+    grid-template-columns: 329px 330px 329px;
+    grid-column-gap: 50px;
+  }
+
+  &__item{
+    font-size: 14px;
+    position: relative;
+    min-width: 329px;
+    min-height: 67.7px;
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 12px 34px 15.7px 23px;
+    margin-top: 16px;
+    transform: rotate(-1deg);
+
+    }
+  .col-1{
+    .reviews__item{
+      &:after{
+        content:'';
+        position: absolute;
+        width: 44px;
+        height: 44px;
+        top: -3px;
+        right: -16px;
+      }
+      &:nth-child(1){
+        &:after{
+          background: url("../../icons/account/junkii.png");
+        }
+      }
+      &:nth-child(2){
+        transform: rotate(-359deg);
+        &:after{
+          background: url("../../icons/account/armyMan.png");
+        }
+
+      }&:nth-child(3){
+         &:after{
+           background: url("../../icons/account/sluri.png");
+         }
+      }
+      &:nth-child(4){
+        &:after{
+          top: 30px;
+          background: url("../../icons/account/greenMan.png");
+          right: -16px;
+        }
+      }
+
+    }
+
+  }
+  .instagram{
+    width: 350px;
+    height: 389px;
+    padding: 24px 57px 24px 62px;
+    border-radius: 30px;
+    background-image: linear-gradient(7deg, #fa09d1 -12%, #faab09 126%);
+  &__text{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+  }
+    &__wrapper{
+      display: flex;
+      width: 220px;
+      justify-content: space-between;
+    }
+    &__qrcode{
+      margin-top: 20px;
+      width: 230px;
+      height: 230px;
+    }
+    &__surname{
+      color: #fff;
+      font-size: 18px;
+      font-weight: 600;
+      text-decoration: underline;
+      text-align: center;
+      margin-top: 15px;
+    }
+  }
+  .col-3{
+    .reviews__item{
+      padding: 12px 34px 15.7px 38px;
+      &:after{
+        content:'';
+        position: absolute;
+        width: 44px;
+        height: 44px;
+        top: -3px;
+        left: -16px;
+      }
+      &:nth-child(1){
+        transform: rotate(-359deg);
+        &:after{
+          top: 13px;
+          background: url("../../icons/account/studioWoman.png");
+        }
+      }
+      &:nth-child(2){
+        &:after{
+          background: url("../../icons/account/parent.png");
+        }
+
+      }&:nth-child(3){
+       transform: rotate(-359deg);
+       &:after{
+         top: 30px;
+         background: url("../../icons/account/dxvil.png");
+       }
+       }
+      &:nth-child(4){
+        &:after{
+          background: url("../../icons/account/paint.png");
+        }
+      }
+    }
+  }
+}
+
+
