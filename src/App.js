@@ -6,6 +6,7 @@ import About from "./components/about/about";
 import Pricing from "./components/pricing/pricing";
 import Reviews from "./components/reviews/reviews";
 import Samples from "./components/samples/samples";
+import FAQ from './components/FAQ/FAQ'
 
 import './App.scss';
 
@@ -19,6 +20,7 @@ class App extends Component{
                 <Samples/>
                 <Pricing/>
                 <Reviews/>
+                <FAQ/>
             </>
 
         )

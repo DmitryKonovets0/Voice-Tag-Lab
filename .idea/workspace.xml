@@ -7,6 +7,13 @@
     <list default="true" id="daf3105f-be88-4dd2-bcb7-dfb35d66a6ed" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/about/about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/about.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/how/how.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/how/how.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pricing/pricing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pricing/pricing.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/reviews/reviews.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/reviews/reviews.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/samples/samples.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/samples/samples.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +72,9 @@
       <workItem from="1706617380739" duration="11000" />
       <workItem from="1706694444357" duration="9692000" />
       <workItem from="1707055198182" duration="15352000" />
-      <workItem from="1707128385438" duration="5650000" />
+      <workItem from="1707128385438" duration="6342000" />
+      <workItem from="1707481425193" duration="4243000" />
+      <workItem from="1707487510833" duration="4867000" />
     </task>
     <servers />
   </component>

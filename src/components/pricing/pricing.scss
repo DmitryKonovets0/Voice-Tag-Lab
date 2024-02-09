@@ -1,7 +1,6 @@
 .pricing{
   display: flex;
   padding-top: 131px;
-  background-color: #10141e;
   &__title{
     color: #fff;
     font-size: 32px;
@@ -72,15 +71,15 @@
       flex-direction: column;
       width: 120px;
       height: 50px;
-      background-image: linear-gradient(black, black),
+      background-image:linear-gradient(black, black),
       linear-gradient(13deg, #0958fa 31%, #0ef0a8 99%);
       background-origin: border-box;
-      border: none;
       border-radius: 10px;
-      transition-duration: .2s;
-      background-clip: content-box, border-box;
+      border: hidden;
+      transition: border-color .3s ease;
       &:hover{
-          border: 1px solid transparent;
+        background-clip: content-box, border-box;
+        border: 1px solid transparent;
       }
       .old-price{
         pointer-events: none;
