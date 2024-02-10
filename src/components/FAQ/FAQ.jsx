@@ -29,8 +29,9 @@ export default class FAQ extends Component {
                     </div>
                     <p className="faq__heading">Can you make a vocal script?</p>
                     <div className="faq__descr">Of course! Need a voiceover for your instructional video or a
-                        narrator for your commercial, film, or book reading? Email <a
-                            href="#" className='Email'>mail@voicetaglab.com</a> to get your price quote!
+                        narrator for your commercial, film, or book reading? Email
+                        {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+                        <a href="#" className='Email'>mail@voicetaglab.com</a> to get your price quote!
                     </div>
                     <p className="faq__heading">What should I include in the «Your requests» section?</p>
                     <div className="faq__descr">This is where you share a bit about how you want your voice tag to
@@ -67,6 +68,7 @@ export default class FAQ extends Component {
                         figure out what you need.
                     </div>
                     <p className="faq__heading">Can you just add some effects for my own recording?</p>
+                    {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                     <div className="faq__descr">Yes, email us at <a href="#" className='Email'>mail@voicetaglab.com</a> and we will discuss it.
                     </div>
             </div>

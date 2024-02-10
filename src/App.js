@@ -7,6 +7,7 @@ import Pricing from "./components/pricing/pricing";
 import Reviews from "./components/reviews/reviews";
 import Samples from "./components/samples/samples";
 import FAQ from './components/FAQ/FAQ'
+import Question from "./components/question/question";
 
 import './App.scss';
 
@@ -21,6 +22,8 @@ class App extends Component{
                 <Pricing/>
                 <Reviews/>
                 <FAQ/>
+                <Question/>
+
             </>
 
         )

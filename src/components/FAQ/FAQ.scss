@@ -1,5 +1,5 @@
 .faq{
-  height: 1458px;
+  min-height: 1458px;
   &__title{
     color: #fff;
     font-size: 32px;
@@ -58,5 +58,9 @@
     &:nth-of-type(even){
       max-width: 670px;
     }
+  }
+  .email{
+    color: #1286fc;
+    font-weight: 600;
   }
 }
