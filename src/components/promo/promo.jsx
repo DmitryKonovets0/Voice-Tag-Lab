@@ -19,19 +19,17 @@ export default class Promo extends Component {
                             <li>Reviews</li>
                             <li>FAQ</li>
                             <li>Contacts</li>
-                            <li><img src={message} alt=""/></li>
-                            <li>
-                                <div className="header__btn_wrapper">
-                                    <img src={btn} alt=""/>
-                                    <a href="#">
-                                        <button className='header__btn'>Get your tag</button>
-                                    </a>
-                                </div>
-                            </li>
                         </ul>
+                        <div className="header__btn-wrapper">
+                            <div className='message'><img src={message} alt=""/></div>
+                            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+                            <a href="#">
+                                <button className='header__btn'>Get your tag</button>
+                            </a>
+                        </div>
                     </div>
                     <div className="promo__title">
-                        Voice <br/> Tag Lab
+                    Voice <br/> Tag Lab
                     </div>
                     <div className="promo__subtitle">
                         The best custom voice tags online

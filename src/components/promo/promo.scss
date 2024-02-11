@@ -6,19 +6,25 @@
         text-decoration: none;
     }
     .header{
-        padding: 15px 20px 14px;
+        padding: 8px 20px 14px;
         border-radius: 30px;
         backdrop-filter: blur(20px);
         background-color: rgba(0, 0, 0, 0.5);
         height: 64px;
-        width: 1090px;
-        display: flex;
-        align-items: center;
+        max-width: 100%;
+        display: grid;
+        &__logo{
+            position: absolute;
+            top: 31%;
+            left: 2%;
+
+        }
         &__menu {
+            top: 33%;
+            right: 228px;
+            position: absolute;
             display: flex;
             align-items: center;
-            height: 100%;
-            margin-left: 251px;
             color: #fff;
             gap: 31px;
             li{
@@ -27,21 +33,22 @@
                 list-style-type: none;
             }
         }
+
         &__btn {
-            position: absolute;
-            top: 2px;
-            right: 2px;
-            width: 116px;
-            background-color: transparent;
-            border:none;
-            border-radius: 60px;
-            height: 30px;
-            text-decoration: none;
+            background: url("../../icons/btn.svg");
+            border: none;
+            width: 120px;
+            height: 35px;
             color: #fff;
             cursor: pointer;
-            &_wrapper {
-                position: relative;
-                width: 120px;
+            &-wrapper {
+                right: 20px;
+                top: 20%;
+                position: absolute;
+                margin-left: 10%;
+                display: flex;
+                justify-content: space-between;
+                width: 176px;
                 height: 35px;
             }
         }
@@ -52,11 +59,11 @@
         font-weight: 700;
         color: #fff;
         font-family: 'Roboto', sans-serif;
-        width: 483px;
+        max-width: 483px;
     }
     &__subtitle{
         margin-top: 8px;
-        width: 440px;
+        max-width: 440px;
         height: 35px;
         padding: 2px 5px 0 5px ;
         font-size: 24px;
@@ -80,10 +87,8 @@
         font-size: 18px;
         font-weight: 600;
         border-radius: 60px;
-
         background-image: linear-gradient(41deg, rgb(9, 88, 250) 30%, rgb(9, 250, 50) 73%);
         color: #fff;
         border: none;
-
     }
-    }
+}
