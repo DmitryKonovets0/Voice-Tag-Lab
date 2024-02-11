@@ -1,12 +1,13 @@
 .footer{
   margin-top: 98px;
-  width: 1440px;
+  max-width: 1440px;
+  position: relative;
   height: 182px;
   background-color: rgba(0, 0, 0, 0.5);
   padding-top: 45px;
   .container{
     display: grid;
-    grid-template-columns:140px 563px 144px;
+    grid-template-columns:12% 56% 14%;
     grid-column-gap: 103px;
   }
   &__text-wrapper{
@@ -21,14 +22,16 @@
     color: #fff;
   }
   &__link-wrapper{
+    position: absolute;
+    gap: 30px;
     display: flex;
-    margin-top: 50px;
-    margin-left: 349px;
-    justify-content: space-between;
-    width: 365px;
-
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
   }
   &__link-item{
+
+
     color: #fff;
     opacity: 0.6;
     font-size: 14px;

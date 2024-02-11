@@ -8,14 +8,14 @@
   }
   &__wrapper{
     display: grid;
-    grid-template-columns: 329px 330px 329px;
+    grid-template-columns: 30% 30% 30%;
     grid-column-gap: 50px;
   }
 
   &__item{
     font-size: 14px;
     position: relative;
-    min-width: 329px;
+    max-width: 329px;
     min-height: 67.7px;
     border-radius: 20px;
     background-color: #fff;
