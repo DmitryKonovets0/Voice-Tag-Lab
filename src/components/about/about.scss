@@ -6,7 +6,7 @@
     color: #fff;
   }
   &__wrapper{
-    width: 1130px;
+    max-width: 1130px;
     height: 594px;
     flex-grow: 0;
     padding: 32px 40px;
@@ -16,9 +16,12 @@
     &_items{
       margin-top: 24px;
       display: grid;
-      grid-template-columns: 330px 330px 330px;
-      grid-gap: 32px;
+      grid-template-columns: 33% 33% 33%;
+      grid-gap: 5% 3%;
     }
+  }
+  &__img{
+    width: 90%;
   }
   &__heading{
     margin-top: 10px;
@@ -27,6 +30,7 @@
     text-align: left;
   }
   &__descr{
+    max-width: 300px;
     margin-top: 4px;
     font-size: 14px;
     text-align: left;
