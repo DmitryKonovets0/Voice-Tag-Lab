@@ -8,6 +8,7 @@ import Reviews from "./components/reviews/reviews";
 import Samples from "./components/samples/samples";
 import FAQ from './components/FAQ/FAQ'
 import Question from "./components/question/question";
+import Footer from "./components/footer/footer";
 
 import './App.scss';
 
@@ -23,7 +24,7 @@ class App extends Component{
                 <Reviews/>
                 <FAQ/>
                 <Question/>
-
+                <Footer/>
             </>
 
         )
