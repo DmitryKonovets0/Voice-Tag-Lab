@@ -61,10 +61,15 @@
     }
 
   }
+  .col-2{
+    display: flex;
+    align-items: center; /* Центрирует элементы по вертикали */
+    justify-content: center;
+  }
   .instagram{
-    width: 350px;
-    height: 389px;
-    padding: 24px 57px 24px 62px;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 9%;
     border-radius: 30px;
     background-image: linear-gradient(7deg, #fa09d1 -12%, #faab09 126%);
   &__text{
@@ -78,9 +83,11 @@
       justify-content: space-between;
     }
     &__qrcode{
+      margin: 0 auto;
+      display: block;
+      max-width: 90%;
+      max-height: 100%;
       margin-top: 20px;
-      width: 230px;
-      height: 230px;
     }
     &__surname{
       color: #fff;
