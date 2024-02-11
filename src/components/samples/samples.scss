@@ -9,14 +9,18 @@
   &__wrapper {
     margin-top: 23px;
     display: grid;
-    grid-template-columns: 513px 513px;
-    grid-gap: 30px;
+    grid-template-columns: 48% 48%;
+    grid-gap: 3%;
   }
     .wrapper {
       &__item {
         position: relative;
-      }
+        width: 100%;
 
+      }
+      &__img{
+        width: 100%;
+      }
       &__heading {
         position: absolute;
         top: 20px;
@@ -29,13 +33,13 @@
   &__opportunity{
     margin-top: 39px;
     display: grid;
-    grid-template-columns: 600px 423px ;
+    grid-template-columns: 60% 40%;
   }
   &__futures{
     position: relative;
-    width: 600px;
+    max-width: 600px;
     display: grid;
-    grid-template-columns: 284px 221px;
+    grid-template-columns: 50% 50%;
     height: 261px;
     padding: 61px 33px 20px 24px;
     border-radius: 20px;
@@ -82,7 +86,7 @@
 
   }
   &__ultimate{
-    width: 423.2px;
+    max-width: 423.2px;
     height: 261px;
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 20px;
