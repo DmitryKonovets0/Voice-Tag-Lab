@@ -6,8 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="daf3105f-be88-4dd2-bcb7-dfb35d66a6ed" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/samples/samples.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/samples/samples.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/samples/samples.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/samples/samples.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FAQ/FAQ.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FAQ/FAQ.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pricing/pricing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pricing/pricing.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/reviews/reviews.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/reviews/reviews.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/reviews/reviews.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/reviews/reviews.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +75,7 @@
       <workItem from="1707487510833" duration="5641000" />
       <workItem from="1707598384830" duration="337000" />
       <workItem from="1707602581811" duration="20443000" />
-      <workItem from="1707739962690" duration="4395000" />
+      <workItem from="1707739962690" duration="5820000" />
     </task>
     <servers />
   </component>

@@ -1,6 +1,7 @@
 import {Component} from "react";
 
 import './FAQ.scss'
+import './FAQ-media.scss'
 
 export default class FAQ extends Component {
     render() {

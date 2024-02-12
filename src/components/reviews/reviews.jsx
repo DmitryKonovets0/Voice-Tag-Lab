@@ -4,6 +4,7 @@ import logoInstagram from  '../../icons/instargram.svg'
 import qr from '../../img/QRpng.png'
 
 import './reviews.scss'
+import './reviews-media.scss'
 
 export default class Reviews extends Component {
     render() {
