@@ -6,10 +6,8 @@ import youtube from '../../icons/youtube.svg'
 import facebook from '../../icons/facebook.svg'
 import x from '../../icons/x.svg'
 
-
-
-
 import './footer.scss'
+import './footer-media.scss'
 
 export default class Footer extends Component {
     render() {

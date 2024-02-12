@@ -10,6 +10,9 @@
     grid-template-columns:12% 56% 14%;
     grid-column-gap: 103px;
   }
+  &__logo{
+    margin-left: 14px;
+  }
   &__text-wrapper{
     display: flex;
     justify-content: space-between;

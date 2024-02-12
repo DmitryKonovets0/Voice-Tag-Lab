@@ -1,0 +1,14 @@
+@media (max-width: 1100px){
+  .footer{
+    .container{
+      grid-template-columns: 14% 63% 17%;
+      grid-column-gap: 4%
+    }
+    &__link-item{
+      font-size: 13px;
+    }
+    &__text-item{
+        font-size: 15px;
+      }
+    }
+}
