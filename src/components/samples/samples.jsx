@@ -6,6 +6,7 @@ import womanBlue from '../../img/bg/womanBlueBg.svg'
 import kid from '../../img/bg/kidBg.svg'
 
 import './samples.scss'
+import './samples-media.scss'
 
 export default class Samples extends Component {
     render() {

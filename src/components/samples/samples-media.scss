@@ -1,0 +1,28 @@
+@media (max-width: 1100px) {
+  .samples{
+    .wrapper__heading{
+      font-size: 16px;
+      top: 15px ;
+    }
+    &__futures{
+      min-height: 261px;
+      .futures__text{
+        font-size: 13px;
+        span{
+          font-size: 14px;
+        }
+      }
+    }
+    &__ultimate {
+      .ultimate__{
+        &btn{
+          width: 222px;
+        }
+        &stroke{
+          width: 224px;
+        }
+      }
+    }
+  }
+
+}
