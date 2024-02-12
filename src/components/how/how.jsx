@@ -4,7 +4,9 @@ import one from '../../icons/1.svg'
 import two from '../../icons/2.svg'
 import three from '../../icons/3.svg'
 import exclamationMark from '../../icons/exclamationMark.svg'
+
 import './how.scss'
+import './how-media.scss'
 
 export default class How extends Component {
     render() {

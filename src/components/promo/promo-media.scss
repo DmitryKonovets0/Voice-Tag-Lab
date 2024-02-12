@@ -1,0 +1,28 @@
+@media (max-width: 1100px) {
+  .promo{
+    .header{
+      &__menu{
+        gap: 20px;
+      }
+      &__logo{
+        width: 59px;
+        top: 34%;
+      }
+    }
+    &__title{
+      font-size: 97px;
+    }
+    &__subtitle{
+      max-width: 402px;
+      font-size: 22px;
+    }
+    &__descr{
+      width: 323px;
+    }
+    &__btn{
+      font-size: 16px;
+      width: 340px;
+    }
+  }
+
+}

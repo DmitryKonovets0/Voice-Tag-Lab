@@ -2,8 +2,9 @@ import {Component} from "react";
 
 import logo from '../../icons/logo.svg'
 import message from '../../icons/message.svg'
-import btn from '../../icons/btn.svg'
+
 import './promo.scss'
+import './promo-media.scss'
 
 export default class Promo extends Component {
     render() {
