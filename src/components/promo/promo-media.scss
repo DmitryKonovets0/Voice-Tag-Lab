@@ -24,5 +24,14 @@
       width: 340px;
     }
   }
-
+}
+@media (max-width: 992px) {
+  .promo {
+    .header {
+      &__menu{
+        li{
+        }
+      }
+    }
+  }
 }

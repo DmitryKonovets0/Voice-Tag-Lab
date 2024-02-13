@@ -11,3 +11,27 @@
 
   }
 }
+@media ( max-width: 992px ) {
+  .how {
+    &__wrapper {
+      height: 286px;
+      padding-top: 16px;
+      &_item{
+        flex-direction: column;
+      }
+      &_wrapper{
+        bottom: 17px;
+      }
+      &_descr {
+        margin-top: 10px;
+        text-align: center;
+        font-size: 12px;
+      }
+      &_wrapper_descr{
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+}
