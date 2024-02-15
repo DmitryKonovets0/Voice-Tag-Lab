@@ -1,0 +1,13 @@
+@media (max-width: 992px) {
+  .about{
+    &__wrapper{
+      padding: 32px 28px 25px 45px;
+      &_items{
+        grid-template-columns: 50% 50%;
+        height: 763px;
+        margin-top: 29px;
+
+      }
+    }
+  }
+}

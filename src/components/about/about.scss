@@ -1,5 +1,5 @@
 .about{
-  height: 594px;
+  min-height: 594px;
   &__title{
     font-size: 32px;
     font-weight: 600;
@@ -7,7 +7,7 @@
   }
   &__wrapper{
     max-width: 1130px;
-    height: 594px;
+    min-height: 594px;
     flex-grow: 0;
     padding: 32px 40px;
     border-radius: 40px;

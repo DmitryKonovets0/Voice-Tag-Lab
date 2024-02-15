@@ -8,6 +8,7 @@ import road from '../../img/road.png'
 import headphone from '../../img/headphone.png'
 
 import './about.scss'
+import './about-media.scss'
 
 export default class About extends Component{
 
