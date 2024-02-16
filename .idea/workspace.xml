@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="daf3105f-be88-4dd2-bcb7-dfb35d66a6ed" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/reviews/reviews-media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/reviews/reviews-media.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/footer-media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer-media.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +75,7 @@
       <workItem from="1707739962690" duration="7053000" />
       <workItem from="1707827338838" duration="1986000" />
       <workItem from="1707943896566" duration="659000" />
-      <workItem from="1708001857017" duration="10410000" />
+      <workItem from="1708001857017" duration="13419000" />
     </task>
     <servers />
   </component>
