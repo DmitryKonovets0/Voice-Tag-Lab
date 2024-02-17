@@ -1,0 +1,13 @@
+@media (max-width: 992px) {
+  .pricing{
+    &__wrapper{
+      grid-template-columns: 200px repeat(4, 15%);
+      column-gap: 12px;
+      .first{
+        &__item{
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}

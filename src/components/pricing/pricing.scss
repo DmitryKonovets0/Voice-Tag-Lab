@@ -1,4 +1,7 @@
 .pricing{
+  .col{
+    width: 100%;
+  }
   display: flex;
   padding-top: 131px;
   &__title{
@@ -17,14 +20,14 @@
     padding: 24px 28px;
     border-radius: 20px;
     background-color: rgba(255, 255, 255, 0.05);
-    width: 804px;
+    max-width: 804px;
     height: 440px;
     position: relative;
     .first{
       &__item{
         margin-top: 16px;
         width: 204px;
-        height: 50px;
+        min-height: 50px;
         border-radius: 10px;
         background-color: rgba(0, 0, 0, 0.4);
         font-size: 14px;
@@ -39,14 +42,11 @@
         }
       }
     }
-    .col{
-
-    }
     .tag{
       display: flex;
       justify-content: center;
       align-items: center;
-      width: 120px;
+      max-width: 120px;
       height: 40px;
       background-color: rgba(0, 0, 0, 0.4);
       border-radius: 10px;
@@ -56,7 +56,7 @@
     .clean__item{
       margin-top: 16px;
       background-color: rgba(0, 0, 0, 0.3);
-      width: 120px;
+      max-width: 120px;
       height: 50px;
       border-radius: 10px;
 
@@ -69,7 +69,7 @@
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      width: 120px;
+      max-width: 120px;
       height: 50px;
       background-image:linear-gradient(black, black),
       linear-gradient(13deg, #0958fa 31%, #0ef0a8 99%);

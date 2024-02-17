@@ -1,6 +1,7 @@
 import {Component} from "react";
 
 import './pricing.scss'
+import './pricing-media.scss'
 
 
 export default class Pricing extends Component {
@@ -17,6 +18,7 @@ export default class Pricing extends Component {
                             <div className="first__item"><span>3 Voices</span> <br/> You can pick any 3 voices</div>
                             <div className="first__item"><span>4 Voices</span> <br/> You can pick all 4 voices</div>
                         </div>
+                        {/*<div className="t"></div>*/}
                         <div className="col">
                             <div className="tag">1 Tag</div>
                             <div className="item__price ">
