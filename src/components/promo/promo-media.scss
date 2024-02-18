@@ -30,6 +30,8 @@
     .header {
       &__menu{
         li{
+          margin: 0 auto;
+          max-width: 56%;
         }
       }
     }
