@@ -91,4 +91,18 @@
         color: #fff;
         border: none;
     }
+    .burger{
+        display: none;
+        position: absolute;
+        top: 3px;
+        left: 50%;
+        transform: translate(-50%);
+        hr{
+            border: solid transparent;
+            margin-top: 2px;
+            width: 30px;
+            height: 2px;
+            background-color: #1286fc;
+        }
+    }
 }

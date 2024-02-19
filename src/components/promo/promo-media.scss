@@ -28,12 +28,24 @@
 @media (max-width: 992px) {
   .promo {
     .header {
-      &__menu{
-        li{
-          margin: 0 auto;
-          max-width: 56%;
-        }
+      margin: 0 auto;
+      max-width: 18%;
+      &__logo{
+        left: 50%;
+        transform: translate(-50%);
       }
+      &__btn-wrapper{
+        right: -13%;
+        display: none;
+      }
+      &__menu{
+        display: none;
+      }
+    }
+    .message{
+      display: none;
+    }
+    .burger{
     }
   }
 }

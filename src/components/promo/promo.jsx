@@ -21,6 +21,12 @@ export default class Promo extends Component {
                             <li>FAQ</li>
                             <li>Contacts</li>
                         </ul>
+                        <div className="burger">
+                            <hr/>
+                            <hr/>
+                            <hr/>
+                        </div>
+
                         <div className="header__btn-wrapper">
                             <div className='message'><img src={message} alt=""/></div>
                             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
@@ -30,7 +36,7 @@ export default class Promo extends Component {
                         </div>
                     </div>
                     <div className="promo__title">
-                    Voice <br/> Tag Lab
+                        Voice <br/> Tag Lab
                     </div>
                     <div className="promo__subtitle">
                         The best custom voice tags online
