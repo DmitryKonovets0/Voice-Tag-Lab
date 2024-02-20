@@ -28,8 +28,7 @@
 @media (max-width: 992px) {
   .promo {
     .header {
-      margin: 0 auto;
-      max-width: 18%;
+      max-width: 15%;
       &__logo{
         left: 50%;
         transform: translate(-50%);
@@ -45,7 +44,28 @@
     .message{
       display: none;
     }
-    .burger{
+    &__title{
+      text-align: center;
+      font-size: 81px;
+      margin: 0 auto;
+    }
+    &__subtitle{
+      max-width: 357px;
+      text-align: center;
+      margin: 10px auto 0;
+      font-size: 19px;
+      padding: 5px;
+    }
+    &__descr{
+      text-align: center;
+      margin: 10px auto 0;
+      font-size: 13px;
+    }
+    &__btn{
+      text-align: center;
+      margin: 10px auto 0;
+      font-size: 14px;
+      width: 305px;
     }
   }
 }

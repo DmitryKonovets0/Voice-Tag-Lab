@@ -7,19 +7,43 @@ import './promo.scss'
 import './promo-media.scss'
 
 export default class Promo extends Component {
+    t = () => {
+        // eslint-disable-next-line no-restricted-globals
+        if(screen.width < 993) {
+            console.log('1')
+            document.querySelector('.menu').style.left = '0'
+        }
+    }
     render() {
         return(
             <div className="promo">
                 <div className="container">
+                    <div className="menu">
+                        <div className="close-wrap">
+                            <div className="close"><span>&times;</span></div>
+                        </div>
+                        <li><a href="#">About us</a></li>
+                        <hr/>
+                        <li><a href="#">Tags Samples</a></li>
+                        <hr/>
+                        <li><a href="#">Pricing</a></li>
+                        <hr/>
+                        <li><a href="#">Reviews</a></li>
+                        <hr/>
+                        <li><a href='#'>FAQ</a></li>
+                        <hr/>
+                        <li><a href='#'>Contacts</a></li>
+                        <hr/>
+                    </div>
                     <div className="header">
-                        <img src={logo} alt="logo" className="header__logo"/>
+                    <img onClick={this.t} src={logo} alt="logo" className="header__logo"/>
                         <ul className='header__menu'>
-                            <li>About us</li>
-                            <li>Tags Samples</li>
-                            <li>Pricing</li>
-                            <li>Reviews</li>
-                            <li>FAQ</li>
-                            <li>Contacts</li>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Tags Samples</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Reviews</a></li>
+                            <li><a href='#'>FAQ</a></li>
+                            <li><a href='#'>Contacts</a></li>
                         </ul>
                         <div className="burger">
                             <hr/>
@@ -42,7 +66,8 @@ export default class Promo extends Component {
                         The best custom voice tags online
                     </div>
                     <div className="promo__descr">
-                        Voice Tag is a necessity for every music producer. We offer a wide range of voices and professional service. Brand your sound with us! Become known
+                        Voice Tag is a necessity for every music producer. We offer a wide range of voices and
+                        professional service. Brand your sound with us! Become known
                     </div>
                     <a href="#">
                         <button className="promo__btn">

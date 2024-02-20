@@ -77,6 +77,48 @@
         font-size: 14px;
         color: #fff;
     }
+    .menu{
+        width: 200px;
+        position: absolute;
+        left: -50%;
+        top: 0;
+        height: 100vh;
+        margin: 0 auto;
+        z-index: 200;
+        background-color: black;
+        opacity: .8;
+        transition: 1s all;
+        hr{
+            width: 200px;
+        }
+        li{
+            margin-top: 20px;
+            list-style-type: none;
+        }
+        a{
+            margin-left: 51px;
+            font-size: 18px;
+        }
+
+        .close{
+            span{
+                font-size: 50px;
+            }
+            position: absolute;
+            right: 1px;
+            top: -5px;
+            &-wrap{
+                width: 44px;
+                height: 41px;
+                border: none;
+                border-radius:100%;
+                background-color: black;
+                position: absolute;
+                right: -25px;
+                top: -12px;
+            }
+        }
+    }
     &__btn{
         margin-top: 80px;
         width: 390px;
