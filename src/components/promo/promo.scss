@@ -85,8 +85,7 @@
         height: 100vh;
         margin: 0 auto;
         z-index: 200;
-        background-color: black;
-        opacity: .8;
+        background-color: rgb(30 148 60);
         transition: 1s all;
         hr{
             width: 200px;
@@ -102,7 +101,8 @@
 
         .close{
             span{
-                font-size: 50px;
+                font-size: 45px;
+                color: #fff;
             }
             position: absolute;
             right: 1px;
@@ -112,7 +112,7 @@
                 height: 41px;
                 border: none;
                 border-radius:100%;
-                background-color: black;
+                background-color: rgb(30 148 60);
                 position: absolute;
                 right: -25px;
                 top: -12px;
