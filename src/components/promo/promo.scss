@@ -77,7 +77,23 @@
         font-size: 14px;
         color: #fff;
     }
+    .menu-block{
+    background-color: rgb(30, 148, 60);
+    height: 49vh;
+    width: 200px;
+    position: absolute;
+    z-index: 200;
+    bottom: 0;
+    left: -50%;
+    transition: all 1s;
+        &.open{
+            left: 0;
+        }
+    }
     .menu{
+        &.open{
+            left: 0;
+        }
         width: 200px;
         position: absolute;
         left: -50%;
@@ -119,6 +135,7 @@
             }
         }
     }
+
     &__btn{
         margin-top: 80px;
         width: 390px;

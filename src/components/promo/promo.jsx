@@ -7,23 +7,28 @@ import './promo.scss'
 import './promo-media.scss'
 
 export default class Promo extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            isMenuOpen: false
+        }
+    }
     menuOpen = () => {
         // eslint-disable-next-line no-restricted-globals
         if(screen.width < 993) {
-            document.querySelector('.menu').style.left = '0'
+            this.setState(({isMenuOpen: true}))
         }
     }
     menuClose = (e) => {
-        if (!e.target.closest('.header')) {
-            document.querySelector('.menu').style.left = '-100%';
+        if (!e.target.closest('.header') &&!e.target.closest('.menu-block') ) {
+            this.setState(({isMenuOpen: false}))
         }
-        e.stopPropagation();
     }
     render() {
         return(
             <div className="promo"onClick={this.menuClose} >
                 <div className="container">
-                    <div className="menu">
+                    <div className={this.state.isMenuOpen ? "menu open" : "menu"}>
                         <div className="close-wrap">
                             <div onClick={this.menuClose} className="close"><span>&times;</span></div>
                         </div>
@@ -40,6 +45,7 @@ export default class Promo extends Component {
                         <li><a href='#'>Contacts</a></li>
                         <hr/>
                     </div>
+                    <div className={this.state.isMenuOpen ? "menu-block open" : "menu-block"}></div>
                     <div className="header">
                     <img onClick={this.menuOpen} src={logo} alt="logo" className="header__logo"/>
                         <ul className='header__menu'>
