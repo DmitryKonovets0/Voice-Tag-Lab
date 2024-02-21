@@ -28,7 +28,7 @@
 @media (max-width: 992px) {
   .promo {
     .header {
-      max-width: 15%;
+      max-width: 105px;
       &__logo{
         left: 50%;
         transform: translate(-50%);
@@ -64,8 +64,26 @@
     &__btn{
       text-align: center;
       margin: 10px auto 0;
-      font-size: 14px;
+      font-size: 16px;
       width: 305px;
+    }
+  }
+}
+@media (max-width: 992px) {
+  .promo {
+    &__title{
+      font-size: 73px;
+    }
+    &__subtitle{
+      margin-top: 12px;
+      max-width: 299px;
+      font-size: 16px;
+      padding: 6px;
+    }
+    &__descr{
+      margin-top: 13px;
+      margin-bottom: 20px;
+      font-size: 13px;
     }
   }
 }

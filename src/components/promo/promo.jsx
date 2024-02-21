@@ -15,18 +15,30 @@ export default class Promo extends Component {
     }
     menuOpen = () => {
         // eslint-disable-next-line no-restricted-globals
-        if(screen.width < 993) {
+        if(screen.width < 993 && screen.width > 425) {
             this.setState(({isMenuOpen: true}))
-        }
+            document.body.classList.add('overflow');
+            document.querySelector('.background').style.cssText = `
+                    visibility: visible;
+                    opacity: .4;
+            `        }
     }
     menuClose = (e) => {
         if (!e.target.closest('.header') &&!e.target.closest('.menu-block') ) {
             this.setState(({isMenuOpen: false}))
+            document.body.classList.remove('overflow');
+            document.querySelector('.background').style.cssText = `
+                    visibility: hidden;
+                    opacity: 0;
+            `
+
+
         }
     }
     render() {
         return(
             <div className="promo"onClick={this.menuClose} >
+                <div className="background"></div>
                 <div className="container">
                     <div className={this.state.isMenuOpen ? "menu open" : "menu"}>
                         <div className="close-wrap">
