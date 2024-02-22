@@ -6,8 +6,24 @@
         grid-template-columns: 50% 50%;
         height: 763px;
         margin-top: 29px;
-
       }
     }
   }
+}
+@media (max-width: 768px) {
+  .about{
+    &__wrapper{
+      &_items{
+        height: 649px;
+        grid-gap: 0% 3% ;
+      }
+    }
+    &__heading{
+      font-size: 16px;
+    }
+    &__descr{
+      font-size: 12px;
+    }
+  }
+
 }
