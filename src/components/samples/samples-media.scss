@@ -63,3 +63,43 @@
     }
   }
 }
+@media (max-width: 768px) {
+  .samples{
+    &__wrapper{
+      grid-template-columns: 100%;
+    }
+    .wrapper__heading{
+      font-size: 17px;
+      top: 10%;
+    }
+    &__opportunity{
+      margin-top: 91px;
+      grid-template-columns: 100%;
+    }
+    &__ultimate{
+      margin: 20px 0  0 0;
+      width: 100%;
+      max-width: 100%;
+      .ultimate{
+        &_btn{
+          margin-top: 30px;
+          display: flex;
+          justify-content: center;
+        }
+        &__btn{
+          width: 220px;
+          height: 55px;
+        }
+        &__stroke{
+          left: 50%;
+          width: 222px;
+          height: 57px;
+          transform: translate(-50%);
+        }
+      }
+    }
+    .futures__text{
+      line-height: 17px;
+    }
+  }
+}

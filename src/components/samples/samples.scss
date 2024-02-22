@@ -1,6 +1,6 @@
 .samples{
-  height: 760px;
-  padding: 20px 0 0 39px;
+  min-height: 760px;
+  padding: 20px ;
   &__title{
     font-size: 32px;
     font-weight: 600;
@@ -87,7 +87,7 @@
   }
   &__ultimate{
     max-width: 423.2px;
-    height: 261px;
+    min-height: 197px;
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 20px;
     padding: 23.6px 20px 22.7px;
