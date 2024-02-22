@@ -1,6 +1,5 @@
 .how{
   padding: 75px 0 100px 0;
-  height: 503px;
   &__title{
     font-size: 32px;
     font-weight: 600;
@@ -13,7 +12,7 @@
     margin-top: 24px;
     display: flex;
     justify-content: space-between;
-    height: 266px;
+    min-height: 266px;
     background-color: rgba(255, 255, 255, 0.04);
     &_item{
       display: flex;

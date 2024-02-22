@@ -17,22 +17,22 @@ export default class How extends Component {
                 <div className="how__wrapper">
                     <div className="how__wrapper_item">
                         <div className="how__wrapper_number"><img src={one} alt="" className="how__wrapper_img"/></div>
-                        <div className="how__wrapper_descr">Listen to the audio <br/> samples and choose <br/> which voice(s) you <br/> want
+                        <div className="how__wrapper_descr">Listen to the audio  samples and choose  which voice(s) you  want
                         </div>
                     </div>
                     <div className="how__wrapper_item">
                         <div className="how__wrapper_number"><img src={two} alt="" className="how__wrapper_img"/></div>
-                        <div className="how__wrapper_descr">Choose your package <br/> in the "Prices" section <br/> and click on the "Get your <br/> custom tag" button
+                        <div className="how__wrapper_descr">Choose your package  in the "Prices" section  and click on the "Get your  custom tag" button
                         </div>
                     </div>
                     <div className="how__wrapper_item">
                         <div className="how__wrapper_number"><img src={three} alt="" className="how__wrapper_img"/></div>
-                        <div className="how__wrapper_descr">Fill out the form. <br/> Include your tag <br/> phrase(s), any requests <br/> like mood, effects, etc.
+                        <div className="how__wrapper_descr">Fill out the form.  Include your tag  phrase(s), any requests  like mood, effects, etc.
                         </div>
                     </div>
                     <div className="how__wrapper_wrapper">
                         <img src={exclamationMark} className="how__wrapper_wrapper_img"></img>
-                        <div className="how__wrapper_wrapper_descr">Don’t’ worry about the pronunciation of your name. <br/> We will contact you to clarify it.</div>
+                        <div className="how__wrapper_wrapper_descr">Don’t’ worry about the pronunciation of your name.  We will contact you to clarify it.</div>
                         <img src={exclamationMark} className="how__wrapper_wrapper_img"></img>
 
                     </div>
