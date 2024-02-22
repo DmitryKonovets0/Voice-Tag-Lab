@@ -23,7 +23,7 @@ export default class Reviews extends Component {
                             <div className="instagram">
                                 <div className="instagram__wrapper">
                                     <img src={logoInstagram} alt="instagram-icon" className="instagram__icon"/>
-                                    <div className="instagram__text">more reviews <br/> on our instagram</div>
+                                    <div className="instagram__text">more reviews  on our instagram</div>
                                 </div>
                                 <img src={qr} alt="" className="instagram__qrcode"/>
                                 <div className="instagram__surname">@voicetaglab</div>

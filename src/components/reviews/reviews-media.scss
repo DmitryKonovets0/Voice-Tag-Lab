@@ -57,3 +57,47 @@
     }
   }
 }
+@media (max-width: 768px) {
+  .reviews{
+    &__item{
+      font-size: 11px;
+      max-width: 98%;
+    }
+    .instagram{
+      min-height: 90px;
+      padding-top: 10px;
+      &__wrapper{
+        width: 100%;
+        max-width: 100%;
+      }
+      &__text{
+        width: 100%;
+        font-size: 20px;
+      }
+      &__icon{
+        width: 80px;
+      }
+      &__surname{
+        font-size: 20px;
+        bottom: 32px;
+        left: 97px;
+        top:auto;
+        right:auto;
+
+      }
+    }
+  }
+}
+@media (max-width: 516px) {
+  .reviews{
+    .instagram{
+      &__surname{
+        bottom: 34px;
+        left: auto;
+        right: 5px ;
+      }
+    }
+  }
+
+}
+
