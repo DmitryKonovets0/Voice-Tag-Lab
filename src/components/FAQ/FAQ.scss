@@ -24,7 +24,7 @@
         height: 8px;
         background-color: #0b96d9;
         border-radius: 100%;
-        top: 12px;
+        top: 5px;
         left: -14px;
       }
     }
@@ -57,6 +57,9 @@
     font-weight: 400;
     &:nth-of-type(even){
       max-width: 670px;
+    }
+    span{
+      margin-left: .7%;
     }
   }
   .email{

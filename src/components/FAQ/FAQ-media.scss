@@ -3,9 +3,26 @@
     &__heading{
       font-size: 15px;
     }
-    &__desct{
+    &__descr{
       font-size: 13px;
     }
   }
-
+}
+@media (max-width: 768px) {
+  .faq{
+    min-height: 0px;
+    &__heading{
+      font-size: 13px;
+    }
+    &__descr{
+      font-size: 12px;
+    }
+    &__wrapper{
+      .blue{
+        &:after{
+          top: 15%;
+        }
+      }
+    }
+  }
 }

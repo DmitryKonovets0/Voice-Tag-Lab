@@ -32,7 +32,7 @@ export default class FAQ extends Component {
                     <div className="faq__descr">Of course! Need a voiceover for your instructional video or a
                         narrator for your commercial, film, or book reading? Email
                         {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                        <a href="#" className='Email'>mail@voicetaglab.com</a> to get your price quote!
+                        <span><a href="#" className='Email'>mail@voicetaglab.com</a></span> to get your price quote!
                     </div>
                     <p className="faq__heading">What should I include in the «Your requests» section?</p>
                     <div className="faq__descr">This is where you share a bit about how you want your voice tag to
