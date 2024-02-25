@@ -3,6 +3,7 @@ import {Component} from "react";
 import closeBtn from '../../icons/trailing-icon.svg'
 
 import './question.scss'
+import './question-media.scss'
 
 export default class Question extends Component {
     render() {
