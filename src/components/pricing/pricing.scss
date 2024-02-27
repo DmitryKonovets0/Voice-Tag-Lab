@@ -26,7 +26,7 @@
     .first{
       &__item{
         margin-top: 16px;
-        width: 204px;
+        max-width: 204px;
         min-height: 50px;
         border-radius: 10px;
         background-color: rgba(0, 0, 0, 0.4);
