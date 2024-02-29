@@ -98,7 +98,7 @@
     position: absolute;
     z-index: 200;
     bottom: 0;
-    left: -60%;
+    left: -70%;
     transition: all 1s;
         &.open{
             left: 0;
@@ -106,13 +106,12 @@
     }
     .menu{
         overflow: hidden;
-        position: fixed;
         &.open{
             left: 0;
         }
         width: 200px;
         position: absolute;
-        left: -60%;
+        left: -70%;
         top: 0;
         height: 736px;
         margin: 0 auto;
