@@ -72,31 +72,34 @@
 
 @media ( max-width: 425px ) {
   .how{
+    padding-top: 300px;
     &__wrapper{
-      height: 393px;
+      grid-template-columns: 100%;
+      padding-right: 100px;
+      padding-top: 28px;
+      height: 429px;
       gap: 30px;
       flex-direction: column;
       margin: 26px auto;
+      &_descr{
+        text-align: left;
+      }
       &_item{
         flex-direction:row;
+        margin-left: 20px;
         &:nth-child(1){
-          margin-left: 4px;
+          margin-left: 25px;
           .how__wrapper_descr{
-            margin-left: 30px;
+            margin-left: 35px;
           }
         }
-      }
-      &_descr{
-        width: 245px;
-        text-align: left;
-        margin-left: 8px;
-      }
-    }
-  }
-}
-@media ( max-width: 425px ) {
-.how{
-  padding-top: 300px;
-  }
-}
-
+        &:nth-child(2){
+          .how__wrapper_descr{
+            margin-left: 43px;
+          }
+        }
+        &:nth-child(3){
+          width: 121%;
+          margin-left: 20px;
+        }
+      }}}}

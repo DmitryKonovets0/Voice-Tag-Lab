@@ -25,5 +25,35 @@
       font-size: 12px;
     }
   }
-
 }
+@media (max-width: 425px) {
+  .about{
+    &__title{
+      margin-left: 16px;
+    }
+    &__card{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    &__wrapper{
+      border-radius: 20px;
+      padding-top: 15px;
+      padding-left: 0;
+      padding-right: 0;
+      &_items{
+        height: 1369px;
+        grid-template-columns: 100%;
+        grid-row-gap: 15px;
+      }
+    }
+    &__descr{
+      text-align: left;
+    }
+    &__heading{
+      width: 92%;
+
+    }
+  }
+}
+
