@@ -100,3 +100,41 @@
     }
   }
 }
+@media (max-width: 425px) {
+  .footer{
+    height: 360px;
+    &__logo{
+      left: 11px;
+    }
+    &__link {
+      &-wrapper {
+      gap: 24px;
+      }
+    }
+    &__social {
+      &-item{
+        width: 32px;
+      }
+      &-wrapper {
+        width: 156px;
+        bottom: 34px;
+        top: auto;
+        left: 14px;
+        right: auto;
+        flex-direction: row;
+        height: auto;
+        transform: none;
+      }
+    }
+    &__text{
+      &_wrapper{
+        .mobile{
+          &:nth-child(1){
+            margin-bottom: 32px;
+          }
+        }
+      }
+    }
+  }
+}
+
