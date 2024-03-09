@@ -98,6 +98,135 @@
       }
     }
   }
+}
+@media (max-width: 425px) {
+  .reviews{
+    .col-1{
+      .reviews__item{
+        font-size: 14px;
+        &:after{
+          content:'';
+          position: absolute;
+          width: 44px;
+          height: 44px;
+          top: 0;
+          right: 0;
 
+        }
+        &:nth-child(1){
+          padding-left: 97px;
+          padding-right: 38px;
+          transform: rotate(-359deg);
+          &:after{
+            background: url("../../icons/account/studioWoman.png");
+            left: 42px;
+            top: 15px;
+          }
+        }
+        &:nth-child(2){
+          padding-top: 20px;
+          padding-right: 87px;
+          padding-left: 40px;
+          transform: rotate(-1deg);
+          &:after{
+            background: url("../../icons/account/junkii.png");
+            right: 30px;
+            top: 13px;
+          }
+
+        }&:nth-child(3){
+           padding-left: 102px;
+           transform: rotate(-359deg);
+           &:after{
+             left: 42px;
+             top: 15px;
+             background: url("../../icons/account/dxvil.png");
+           }
+         }
+        &:nth-child(4){
+          padding-top: 20px;
+          padding-right: 87px;
+          padding-left: 40px;
+          transform: rotate(-1deg);
+          &:after{
+            right: 30px;
+            top: 13px;
+            background: url("../../icons/account/armyMan.png");
+          }
+        }
+        &:nth-child(5){
+          transform: rotate(-359deg);
+          padding-left: 97px;
+          padding-right: 38px;
+          &:after{
+            left: 42px;
+            top: 9px;
+            background: url("../../icons/account/parent.png");
+          }
+        }
+        &:nth-child(6){
+          transform: rotate(-1deg);
+          padding-top: 20px;
+          padding-right: 87px;
+          padding-left: 40px;
+          &:after{
+            background: url("../../icons/account/sluri.png");
+            right: 30px;
+            top: 42px;
+          }
+        }
+        &:nth-child(7){
+          padding-left: 97px;
+          padding-right: 38px;
+          transform: rotate(-359deg);
+          &:after{
+            background: url("../../icons/account/paint.png");
+            left: 42px;
+            top: 15px;
+          }
+        }
+        &:nth-child(8){
+          transform: rotate(-1deg);
+          padding-top: 20px;
+          padding-right: 87px;
+          padding-left: 40px;
+          &:after{
+            background: url("../../icons/account/greenMan.png");
+            right: 30px;
+            top: 13px;
+          }
+        }
+      }
+    }
+    &__wrapper{
+      grid-template-columns: 100%;
+    }
+    .instagram{
+      padding-left: 10px;
+      padding-top: 24px;
+      position: relative;
+      top: auto;
+      left: auto;
+      transform: none;
+      width: 100%;
+      margin-top: 24px;
+      &__wrapper{
+        width: 120%;
+        max-width: 120%;
+      }
+      &__surname{
+        font-size: 4.5vw;
+        top: 25px;
+        right: auto;
+        left: 60px;
+      }
+      &__icon{
+        width: 47px;
+      }
+      &__text{
+        font-size: 4.5vw;
+      }
+    }
+  }
 }
 

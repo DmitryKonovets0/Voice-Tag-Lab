@@ -13,7 +13,7 @@ export default class Footer extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            mobile: window.innerWidth < 1000
+            mobile: window.innerWidth < 425
         }
     }
     render() {
