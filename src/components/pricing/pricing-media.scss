@@ -41,5 +41,18 @@
       width: 80%;
     }
   }
-
 }
+@media (max-width: 425px) {
+  .pricing{
+    &__title{
+      font-size: 23px;
+    }
+    &__wrapper{
+      padding: 12px;
+      .first__item{
+        font-size: 10px;
+      }
+    }
+  }
+}
+

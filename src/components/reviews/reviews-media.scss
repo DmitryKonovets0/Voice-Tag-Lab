@@ -25,6 +25,7 @@
       margin-top: 153px;
       grid-template-columns: 50% 0 42%;
       column-gap: 4%;
+
     }
     .instagram{
       width: 80%;
@@ -37,6 +38,8 @@
       &__wrapper{
         max-width: 264px;
         gap: 10px;
+        margin: 0;
+
       }
       &__text{
         width: 390px;
@@ -65,7 +68,7 @@
     }
     .instagram{
       min-height: 90px;
-      padding-top: 10px;
+      padding-top: 14px;
       &__wrapper{
         width: 100%;
         max-width: 100%;
@@ -73,14 +76,15 @@
       &__text{
         width: 100%;
         font-size: 20px;
+        padding-top: 10px;
       }
       &__icon{
         width: 80px;
       }
       &__surname{
         font-size: 20px;
-        bottom: 32px;
-        left: 97px;
+        bottom: 23px;
+        margin-left: 86px;
         top:auto;
         right:auto;
 
@@ -88,16 +92,30 @@
     }
   }
 }
-@media (max-width: 516px) {
+@media (max-width: 526px) {
   .reviews{
     .instagram{
+      &__text{
+        margin-left: 0;
+        padding-top: 5px;
+      }
       &__surname{
-        bottom: 34px;
-        left: auto;
-        right: 5px ;
+        margin-left: 78px;
+        bottom: 26px;
       }
     }
   }
+}
+@media (max-width: 515px) {
+  .reviews{
+    .instagram{
+      &__surname{
+        left: auto;
+        margin-left: 182px;
+      }
+    }
+  }
+
 }
 @media (max-width: 425px) {
   .reviews{

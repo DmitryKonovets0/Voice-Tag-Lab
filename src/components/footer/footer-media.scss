@@ -56,6 +56,17 @@
     }
   }
 }
+@media (max-width: 684px){
+.footer{
+  &__link {
+    &-wrapper {
+      width: 400px;
+      left: 53%;
+    }
+  }
+}
+}
+
 @media (max-width: 617px){
   .footer{
     .container{
@@ -73,7 +84,7 @@
     &__link{
       &-wrapper{
         gap: 11px;
-        width: 129px;
+        width: 400px;
         height: 108px;
         position: static;
         flex-direction: column;

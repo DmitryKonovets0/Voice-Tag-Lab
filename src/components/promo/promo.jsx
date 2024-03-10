@@ -59,7 +59,7 @@ export default class Promo extends Component {
                     </div>
                     <div className={this.state.isMenuOpen ? "menu-block open" : "menu-block"}></div>
                     <div className="header">
-                    <img onClick={this.menuOpen} src={logo} alt="logo" className="header__logo"/>
+                        <img onClick={this.menuOpen} src={logo} alt="logo" className="header__logo"/>
                         <ul className='header__menu'>
                             <li><a href="#">About us</a></li>
                             <li><a href="#">Tags Samples</a></li>
@@ -92,11 +92,10 @@ export default class Promo extends Component {
                         Voice Tag is a necessity for every music producer. We offer a wide range of voices and
                         professional service. Brand your sound with us! Become known
                     </div>
-                    <a href="#">
-                        <button className="promo__btn">
+                        <a href="#" className="promo__btn">
                             Get your custom tag
-                        </button>
-                    </a>
+                        </a>
+
                 </div>
             </div>
         )
