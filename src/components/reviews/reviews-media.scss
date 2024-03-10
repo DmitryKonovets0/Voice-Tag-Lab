@@ -239,11 +239,13 @@
         top: 25px;
         right: auto;
         left: 60px;
+        margin-left: 0;
       }
       &__icon{
         width: 47px;
       }
       &__text{
+        margin-top: -6px;
         font-size: 4.5vw;
       }
     }
